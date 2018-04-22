@@ -20,6 +20,10 @@ You can bring RTP back by opening `Game.ini` and adding the line `RTP=RPGVXAce`.
 
 Project created with RMVXA 1.02a.
 
+All of the base files are obtained from RPG Maker VX Ace. The license provided by Enterbrain can be found at `LICENSE/VXACE_EULA.rtf`.
+
+All changes we made to the base files are covered by The Unlicense, see `LICENSE/LICENSE`.
+
 ## Related projects
 
 * [RPG Maker XP Clean Project](https://github.com/rpgmakeralliance/rmxp-clean-project) by RPG Maker Alliance
@@ -45,6 +49,10 @@ Pour utiliser les RTP à nouveau, ouvrez le fichier `Game.ini` et ajoutez la lig
 ## Plus de détails
 
 Projet créé avec RMVXA 1.02a.
+
+Les fichiers d'origine proviennent de RPG Maker VX Ace. La licence fournie par Enterbrain peut être consultée dans `LICENSE/VXACE_EULA.rtf`.
+
+Tous les changements que nous avons effectués sur les fichiers de base sont sous The Unlicense, voir `LICENSE/LICENSE`.
 
 ## Projets similaires
 
