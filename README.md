@@ -1,13 +1,53 @@
 # RPG Maker VX Ace Clean Project
 
-Lors de la crÈation d'un nouveau projet, RPG Maker VX Ace inclut de nombreuses entrÈes dans la base de donnÈes, et impose l'utilisation des RTP. Utiliser des ressources personnelles demande un nettoyage fastidieux de la base de donnÈes dans chaque nouveau projet.
+# English guide
 
-Ce projet vierge permet d'Èviter cette Ètape. Il est indÈpendant des RTP, et contient seulement les fichiers nÈcessaires au lancement du jeu. La base de donnÈes est entiËrement vidÈe pour plus de confort, ‡ l'exception des termes de l'Ècran-titre.
+When creating a new project, RPG Maker XP includes many entries in the database, and requires the use of RTP. Using personal resources requires a tedious cleanup of the database in every new project.
+
+This blank project saves you from doing this step. It doesn't need RTP, and only contains the mandatory files to launch the game. The database is fully cleaned up, except for the title screen terms.
+
+## Customization
+
+Terms for the title screen and in the script `Vocab` are in French by default. To use the English terms, copy the `DataEnglish` files to `Data`.
+
+You may want to use your own font and delete VL Gothic. However, the game won't start if VL Gothic can't be found. To avoid this problem, we created an empty font named VL Gothic in `FontsEmptyVLGothic`. You can delete everything in the `Fonts` folder, and put the fake font in it.
+
+You can delete `DataEnglish` and `FontsEmptyVLGothic` when you don't need them anymore.
+
+You can bring RTP back by opening `Game.ini` and adding the line `RTP=RPGVXAce`.
+
+## More details
+
+Project created with RMVXA 1.02a.
+
+## Related projects
+
+* [RPG Maker XP Clean Project](https://github.com/rpgmakeralliance/rmxp-clean-project) by RPG Maker Alliance
+* [RPG Maker VX Ace Starter Pack](https://github.com/rpgmakeralliance/rmvxa-starter-pack) by RPG Maker Alliance
+* [rpgskeleton](https://github.com/akesterson/rpgskeleton) by Andrew Kesterson
+
+# Guide fran√ßais
+
+Lors de la cr√©ation d'un nouveau projet, RPG Maker VX Ace inclut de nombreuses entr√©es dans la base de donn√©es, et impose l'utilisation des RTP. Utiliser des ressources personnelles demande un nettoyage fastidieux de la base de donn√©es dans chaque nouveau projet.
+
+Ce projet vierge permet d'√©viter cette √©tape. Il est ind√©pendant des RTP, et contient seulement les fichiers n√©cessaires au lancement du jeu. La base de donn√©es est enti√®rement vid√©e pour plus de confort, √† l'exception des termes de l'√©cran-titre.
 
 ## Personnalisation
 
-Les termes de l'Ècran-titre et du script `Vocab` sont en franÁais par dÈfaut. Pour utiliser les termes anglais, copiez les fichiers de `DataEnglish` dans `Data`.
+Les termes de l'√©cran-titre et du script `Vocab` sont en fran√ßais par d√©faut. Pour utiliser les termes anglais, copiez les fichiers de `DataEnglish` dans `Data`.
 
-Vous pouvez supprimer le dossier `DataEnglish`, qui n'est pas utilisÈ par le jeu.
+Vous aurez peut-√™tre l'intention d'utiliser votre propre police d'√©criture et de supprimer VL Gothic. Cependant, le jeu ne se lancera pas si VL Gothic est introuvable. Pour √©viter ce probl√®me, nous avons cr√©√© une police vide nomm√©e VL Gothic dans `FontsEmptyVLGothic`. Vous pouvez supprimer tout le contenu du dossier `Fonts`, et y ajouter la fausse police.
 
-Pour utiliser les RTP, ouvrez le fichier `Game.ini` et ajoutez la ligne `RTP=RPGVXAce`.
+Vous pouvez supprimer les dossiers `DataEnglish` et `FontsEmptyVLGothic` lorsque vous n'en avez plus besoin.
+
+Pour utiliser les RTP √† nouveau, ouvrez le fichier `Game.ini` et ajoutez la ligne `RTP=RPGVXAce`.
+
+## Plus de d√©tails
+
+Projet cr√©√© avec RMVXA 1.02a.
+
+## Projets similaires
+
+* [RPG Maker XP Clean Project](https://github.com/rpgmakeralliance/rmxp-clean-project) par RPG Maker Alliance
+* [RPG Maker VX Ace Starter Pack](https://github.com/rpgmakeralliance/rmvxa-starter-pack) par RPG Maker Alliance
+* [rpgskeleton](https://github.com/akesterson/rpgskeleton) par Andrew Kesterson
