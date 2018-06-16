@@ -2,7 +2,7 @@
 
 # English guide
 
-When creating a new project, RPG Maker XP includes many entries in the database, and requires the use of RTP. Using personal resources requires a tedious cleanup of the database in every new project.
+When creating a new project, RPG Maker VX Ace includes many entries in the database, and requires the use of RTP. Using personal resources requires a tedious cleanup of the database in every new project.
 
 This blank project saves you from doing this step. It doesn't need RTP, and only contains the mandatory files to launch the game. The database is fully cleaned up, except for the title screen terms.
 
